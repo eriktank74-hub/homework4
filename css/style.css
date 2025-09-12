@@ -241,6 +241,11 @@ img {
 
 }
 
+.features-icon {
+    fill: transparent;
+    stroke: #111;
+}
+
 .features-subtitle-head {
     font-size: 20px;
     font-weight: 500;

@@ -21,7 +21,6 @@
       <nav class="header-navigation">
         <a class="header-logo" href="./index.html">
           WEB<span class="logo-studio">Studio</span>
-          <!-- <span class="logo-studio">Studio</span> --- IGNORE --- -->
         </a>
         <ul class="header-menu-list">
           <li class="header-menu-item"><a class="header-menu-link header-link-studio" href="./index.html">Studio</a></li>
@@ -33,8 +32,8 @@
         <ul class="header-contacts-list">
           <li class="header-contacts-item"><a class="header-contacts-link"
               href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="header-contacts-item"><a class="header-contacts-link" href="tel:+110001111111">+11 (000)
-              111-11-11</a></li>
+          <li class="header-contacts-item"><a class="header-contacts-link" 
+               href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </div>
@@ -52,8 +51,17 @@
         <ul class="features-list">
           <li class="features-item">
             <div class="container-icon">
-              <img class="features-icon" src="./images/icon1.svg" alt="Strategy" width="64" height="64"/>
-            </div>
+              <svg class="features-icon" width="64" height="64" >  
+                <use href="./images/icons.svg#icon-strategy">
+                </svg>
+                <xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="32" fill="#404BBF" />
+                <path
+                  d="M32 12C20.9543 12 12 20.9543 12 32C12 43.0457 20.9543 52 32 52C43.0457 52 52 43.0457 52 32C52 20.9543 43.0457 12 32 12ZM32 48C23.1634 48 16 40.8366 16 32C16 23.1634 23.1634 16 32 16C40.8366 16 48 23.1634 48 32C48 40.8366 40.8366 48 32 48Z"
+                  fill="white" />
+                <path
+                  d="M32.0001 20C26.4772 20.0001 22.0001 24.4772 22.0001 30H26.0001C26.0001 26.6863 28.6864 24.0001 32.0001 24.0001C35.3138 24.0001 37.9999 26.6863 37.9999 30C37.9999 33.3137 35.3138 36.0001 32.0001 36.0001H30.0001V40H34.0001C39.5229 40.0001 44.0001 35.5231 44.0001 30C44.0001 24.4772 39.5229 20.0001 34.0001 20H32.0001Z"
+                  fill="white" />
             <h3 class="features-subtitle">
               Strategy</h3>
             <p class="features-description">
