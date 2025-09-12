@@ -46,8 +46,14 @@ img {
       0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 ::after {
-content: '';
-width: 100%;
+    content: '';
+    width: 100%;
+    position: absolute; 
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf; 
+    border-radius: 2px;
 }
 .header-navigation{
     display: flex;
@@ -176,7 +182,7 @@ width: 100%;
     background-image: linear-gradient
     (rgba(46, 47, 66, 0.7),
      rgba(46, 47, 66, 0.7)),
-      url('../images/card11.png'); 
+      url(../images/img-name.png); 
     margin: 0 auto;
     padding: 188px 0;
     background-repeat: no-repeat;  
