@@ -45,6 +45,10 @@ img {
      0px 1px 1px rgba(46, 47, 66, 0.16),
       0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
+.header:after {
+content: 0px;
+width: 100%;
+}
 .header-navigation{
     display: flex;
     justify-content: space-between;
