@@ -45,8 +45,8 @@ img {
      0px 1px 1px rgba(46, 47, 66, 0.16),
       0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
-:after {
-content: 0px;
+::after {
+content: '';
 width: 100%;
 }
 .header-navigation{
@@ -172,12 +172,18 @@ width: 100%;
 }
 
 .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-     rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg); 
     background: #2E2F42;
+    background-image: linear-gradient
+    (rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)),
+      url('../images/card11.png'); 
+    margin: 0 auto;
     padding: 188px 0;
-    max-width: 1440px; 
     background-repeat: no-repeat;  
+    border-radius: 32px;
+    margin-bottom: 72px;
+    padding-bottom: 40px;
+    padding-top: 340px;
     max-width: 1440px; 
     background-position: center;
     background-size: cover;
