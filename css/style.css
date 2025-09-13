@@ -218,8 +218,11 @@ img {
 
 .img-people {
     display: block;
-    margin: 0 auto;}
+    margin: 0 auto;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px 
+    rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
+}
     /*      ---------FEATURES----------       */
 .features {
     margin-top: 50px;
@@ -229,11 +232,11 @@ img {
 
 .container-icon {   
     display: flex;
-     align-items: center;
-     justify-content: center;
-     height: 112px;
-     background-color: #f4f4fd;
-     border-radius: 4px; 
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px; 
     border: 1px solid #8e8f99;  
     margin-bottom: 8px; 
 
