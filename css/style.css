@@ -177,14 +177,10 @@ img {
 
 .hero {
     background: #2E2F42;
-    background-image: linear-gradient
-    (rgba(46, 47, 66, 0.7),
-     rgba(46, 47, 66, 0.7)),
-      url(../images/people-card.jpg); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url('../images/people-card.jpg'); 
     margin: 0 auto;
     padding: 188px 0;
     background-repeat: no-repeat;  
-    border-radius: 32px;
     margin-bottom: 72px;
     padding-bottom: 40px;
     padding-top: 340px;
@@ -243,7 +239,7 @@ img {
 
 .features-icon {
     fill: transparent;
-    stroke: #111;
+    stroke: '';
 }
 
 .features-subtitle-head {
@@ -310,8 +306,8 @@ img {
 
 }
 .features-list{
-    width: calc(100% - 60px) /3;
-    flex-direction: row-reverse;
+    width: calc(100% - 60px);
+    flex-direction: row;
     display: flex;
     margin: 0  auto;
     gap: 24px;
