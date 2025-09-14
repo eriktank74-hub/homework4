@@ -317,7 +317,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .team-social-icons-link:hover {
@@ -426,7 +426,6 @@ img {
 
 .service-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
 }
 
 .service-item-container {
@@ -438,7 +437,7 @@ img {
 .img-wrapper-container {
     position: relative;
     overflow: hidden;
-
+    transform: translateY(0%);
 }
 
 .service-img-description {
