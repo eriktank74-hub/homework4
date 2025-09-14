@@ -456,6 +456,10 @@ img {
 }
 
 .container-footer {
+    align-items: baseline, 
+}
+
+.footer-wrapper {
     display: flex;
     align-items: center;
     margin-right: 120px;
